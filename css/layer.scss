@@ -1,0 +1,138 @@
+
+.info-ft {
+	color: #7a7a7a;
+	ul {
+		list-style: none;
+	}
+}
+footer {
+    padding: 40px 0;
+}
+
+.header-top {
+	padding: 10px 0;
+	ul {
+		list-style: none;
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+	}
+	.top {
+		font-size: 14px;
+		margin-bottom: 8px;
+		li {
+			padding-right: 30px;
+			&:last-child {
+				padding-right: 0;
+			}
+		}
+		a {
+			color: #454545;
+		    display: flex;
+		    align-items: center;
+		    span {
+		    	padding-left: 6px;
+		    }
+		}
+	}
+}
+.h-menu{
+	width: 100%;
+	position: relative;
+	li {
+		padding-right: 30px;
+		&:last-child {
+			padding-right: 0;
+		}
+		&:hover {
+			a {
+				color: #23b4e0;
+			}
+			.mega-menu {
+				opacity: 1;
+				pointer-events: unset;
+			}
+		}
+	}
+	a {
+		text-transform: uppercase;
+	    font-weight: 500;
+	    color: #1e73be;
+	    font-size: 15px;
+	    padding: 10px 0;
+	    display: block;
+		i {
+			margin-left: 5px;
+		}
+		&.active, &:hover {
+			color: #23b4e0;
+		}
+	}
+}
+
+.mega-menu {
+	position: absolute;
+    background: #fff;
+    border: 1px solid #ddd;
+    z-index: 1001;
+    width: 100%;
+    right: 0;
+    display: flex;
+    top: 46px;
+    transition: .4s all !important;
+    pointer-events: none;
+    opacity: 0;
+    ul {
+    	display: block;
+    	li {
+		    padding-right: 0;
+    	}
+    	a {
+		    color: #777777;
+		    text-transform: unset;
+		    font-weight: 300;
+		    display: block;
+		    padding: 10px;
+		    position: relative;
+		    &:hover, &.menu-active {
+		    	background: #ebebeb;
+		    	color: #777777;
+		    }
+    	}
+    }
+    .info-menu {
+	    width: 100%;
+	    padding: 15px;
+	    font-size: 14px;
+	    font-weight: 300;
+	    line-height: 1.5;
+	    display: none;
+	    &.mega-active {
+	    	display: flex;
+	    }
+	    .avart {
+	    	flex: 0 0 200px;
+    		margin-right: 15px;
+	    }
+	    .info {
+	    	h4 {
+	    		font-weight: 500;
+			    font-size: 16px;
+			    margin-bottom: 10px;
+	    	}
+	    }
+    }
+    .left {
+    	flex: 0 0 32%;
+    	border-right: 1px solid #ebebeb;
+    	i {
+    		margin: 0;
+		    position: absolute;
+		    top: 14px;
+		    right: 15px;
+    	}
+    }
+    .right {
+    	flex: 0 0 68%;
+    }
+}
