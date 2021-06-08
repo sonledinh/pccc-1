@@ -41,6 +41,7 @@ footer {
 	position: relative;
 	li {
 		padding-right: 30px;
+		position: relative;
 		&:last-child {
 			padding-right: 0;
 		}
@@ -75,9 +76,8 @@ footer {
     background: #fff;
     border: 1px solid #ddd;
     z-index: 1001;
-    width: 100%;
+    width: 250px;
     right: 0;
-    display: flex;
     top: 46px;
     transition: .4s all !important;
     pointer-events: none;

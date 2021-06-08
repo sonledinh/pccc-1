@@ -46,45 +46,16 @@
                                         <div class="left">
                                             <ul>
                                                 <li>
-                                                    <a href="" class="clc-menu menu-active" data-tab="mega-1">Tổng quan về PCCC<i class="fa fa-angle-right"></i></a>
+                                                    <a href="" class="clc-menu menu-active">Tổng quan về PCCC<i class="fa fa-angle-right"></i></a>
                                                     
                                                 </li>
                                                 <li>
-                                                    <a href="" class="clc-menu" data-tab="mega-2">Lịch sử phát triển<i class="fa fa-angle-right"></i></a>
+                                                    <a href="" class="clc-menu">Lịch sử phát triển<i class="fa fa-angle-right"></i></a>
                                                 </li>
                                                 <li>
-                                                    <a href="" class="clc-menu" data-tab="mega-3">Đơn vị thành viên<i class="fa fa-angle-right"></i></a>
+                                                    <a href="" class="clc-menu">Đơn vị thành viên<i class="fa fa-angle-right"></i></a>
                                                 </li>
                                             </ul>
-                                        </div>
-                                        <div class="right">
-                                            <div class="info-menu mega-active" id="mega-1">
-                                                <div class="avart"><img src="images/s1.jpg" class="img-fluid w-100" alt=""></div>
-                                                <div class="info">
-                                                    <h4>Tổng quan về PCCC</h4>
-                                                    <div class="desc">
-                                                        Trong quá trình hình thành và phát triển, các lớp thế hệ nối tiếp của Công ty đã làm nên những dấu ấn đậm nét trên toàn bộ hệ thống mạng lưới vận hành và truyền tải điện Quốc gia bằng những dự án, công trình đường dây và trạm quy mô lớn, chất lượng cao.
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="info-menu" id="mega-2">
-                                                <div class="avart"><img src="images/s1.jpg" class="img-fluid w-100" alt=""></div>
-                                                <div class="info">
-                                                    <h4>Lịch sử phát triển</h4>
-                                                    <div class="desc">
-                                                        Trong quá trình hình thành và phát triển, các lớp thế hệ nối tiếp của Công ty đã làm nên những dấu ấn đậm nét trên toàn bộ hệ thống mạng lưới vận hành và truyền tải điện Quốc gia bằng những dự án, công trình đường dây và trạm quy mô lớn, chất lượng cao.
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="info-menu" id="mega-3">
-                                                <div class="avart"><img src="images/s1.jpg" class="img-fluid w-100" alt=""></div>
-                                                <div class="info">
-                                                    <h4>Đơn vị thành viên</h4>
-                                                    <div class="desc">
-                                                        Trong quá trình hình thành và phát triển, các lớp thế hệ nối tiếp của Công ty đã làm nên những dấu ấn đậm nét trên toàn bộ hệ thống mạng lưới vận hành và truyền tải điện Quốc gia bằng những dự án, công trình đường dây và trạm quy mô lớn, chất lượng cao.
-                                                    </div>
-                                                </div>
-                                            </div>
                                         </div>
                                     </div>
                                 </li>

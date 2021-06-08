@@ -23,7 +23,7 @@ body {
     a { 
         transition: .3s all !important; 
         color: #272727; 
-        &:hover {
+        &:hover { 
             color: $red;      
         }  
     }  
